@@ -1,0 +1,106 @@
+#navbarColor {
+    background-color: #1381E7;
+}
+#navTitle {
+    color: white;
+    font-size: 2.5rem;
+    padding-right: 30rem;
+}
+.searchBar {
+    text-align: center;
+    color: black;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-right: 1rem;
+}
+.submitBtn {
+    color: #D0DB4E;
+    background-color: #1381E7;
+    border: 0.1rem solid #D0DB4E;
+    font-size: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.submitBtn:hover {
+    color: #1381E7;
+    background-color: #D0DB4E;
+    border: 0.1rem solid #D0DB4E;
+}
+/* Favorties Start */
+.favDataCol {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-left: 5%;
+    width: 60%;
+}
+.favIcons {
+    width: 30%;
+}
+.removeBtn {
+    margin-top: 1rem;
+    background-color: #5ABDE8;
+    color: black;
+    border: 0.1rem solid black;
+    font-size: 1.7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.removeBtn:hover {
+    color: #5ABDE8;
+    background-color: black;
+    border: 0.1rem solid black;
+}
+/* Favorties End */
+
+/* Forecast Start */
+.forecastDiv {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+.infoSpacing {
+    padding-top: 2rem;
+}
+.currentInfoRow {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+.currentInfoTxt {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+.weekRow {
+    padding-top: 3rem;
+}
+.forecastInfoDiv {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+.forecastRows {
+    margin: 0;
+    border-bottom: 0.1rem solid black;
+}
+.forecastTemps {
+    padding-top: 2.5rem;
+}
+/* Forecast End */
+.favBtn {
+    color: #D0DB4E;
+    background-color: #5ABDE8;
+    border: 0.1rem solid #D0DB4E;
+    font-size: 1.25rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.favBtn:hover {
+    color: #5ABDE8;
+    background-color: #D0DB4E;
+    border: 0.1rem solid #D0DB4E;
+}
+
+@media screen and (max-width: 376px) {
+    #navTitle {
+        padding-right: 0;
+    }
+}
